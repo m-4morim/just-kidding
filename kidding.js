@@ -24,15 +24,19 @@ var s3 = (s1 + s2) / 2
 console.log(s3)
 
 function estCond(s3) {
-    const s3 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    const map1 = s3.map(
-        if (x >= 7) {
+    s3 = 0;
+    for (i = 0; i < 10; i++) {
+        s3 += 1
+        console.log(s3)
+
+        if (s3 >= 7) {
             console.log("Aprovado")
-        } else if (x >= 5 && x < 7) {
+        } else if (s3 >= 5 && s3 < 7) {
             console.log("Recuperação")
         } else {
             console.log("Reprovado")
-        })
+        }
+    }
 }
 
 estCond()
