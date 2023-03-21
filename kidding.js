@@ -50,3 +50,15 @@ function Contador(cont) {
 }
 
 Contador()
+
+console.log("Intervalo")
+
+function contadorNeg(cont) {
+    cont = 11;
+    for (i = 11; i > 1; i--) {
+    cont -= 1;
+    console.log(cont)
+    }
+}
+
+contadorNeg()
