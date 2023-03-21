@@ -62,3 +62,23 @@ function contadorNeg(cont) {
 }
 
 contadorNeg()
+
+console.log("Par-ímpar")
+
+function parImp(cont) {
+    cont = 0;
+    for (i = 0; i < 10; i++) {
+    cont += 1;
+    console.log(cont)
+    
+    if (cont % 2 == 0) {
+        console.log("Número par")
+    } else {
+        console.log("Número ímpar")
+    }
+
+    }
+
+}
+
+parImp()
