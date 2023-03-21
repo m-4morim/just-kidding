@@ -44,8 +44,8 @@ estCond()
 function Contador(cont) {
     cont = 0;
     for (i = 0; i < 10; i++) {
-    cont += 1;
-    console.log(cont)
+        cont += 1;
+        console.log(cont)
     }
 }
 
@@ -56,8 +56,8 @@ console.log("Intervalo")
 function contadorNeg(cont) {
     cont = 11;
     for (i = 11; i > 1; i--) {
-    cont -= 1;
-    console.log(cont)
+        cont -= 1;
+        console.log(cont)
     }
 }
 
@@ -68,14 +68,14 @@ console.log("Par-ímpar")
 function parImp(cont) {
     cont = 0;
     for (i = 0; i < 10; i++) {
-    cont += 1;
-    console.log(cont)
-    
-    if (cont % 2 == 0) {
-        console.log("Número par")
-    } else {
-        console.log("Número ímpar")
-    }
+        cont += 1;
+        console.log(cont)
+
+        if (cont % 2 == 0) {
+            console.log("Número par")
+        } else {
+            console.log("Número ímpar")
+        }
 
     }
 
