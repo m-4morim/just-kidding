@@ -40,3 +40,13 @@ function estCond(s3) {
 }
 
 estCond()
+
+function Contador(cont) {
+    cont = 0;
+    for (i = 0; i < 10; i++) {
+    cont += 1;
+    console.log(cont)
+    }
+}
+
+Contador()
